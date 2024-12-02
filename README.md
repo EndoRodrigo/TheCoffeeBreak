@@ -1,7 +1,7 @@
 # TheCoffeeBreak
 El código de muestra que viene con este tutorial crea una base de datos que es utilizada por un propietario de una pequeña cafetería llamada The Coffee Break, donde los granos de café se venden por libra y el café preparado se vende por taza.
 
-# Glosario de términos sobre Bases de Datos y JDBC:
+Glosario de términos sobre Bases de Datos y JDBC:
 ## Base de Datos (DB):
 
 Conjunto de datos organizados de manera estructurada y accesibles electrónicamente. Pueden ser de diferentes tipos, como bases de datos relacionales (SQL) o NoSQL.
