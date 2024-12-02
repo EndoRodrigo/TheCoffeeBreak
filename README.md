@@ -6,10 +6,13 @@ El código de muestra que viene con este tutorial crea una base de datos que es 
 Conjunto de datos organizados de manera estructurada y accesibles electrónicamente. Pueden ser de diferentes tipos, como bases de datos relacionales (SQL) o NoSQL.
 ### Sistema de Gestión de Bases de Datos (DBMS): 
 Software utilizado para crear, gestionar y manipular bases de datos. Ejemplos comunes son MySQL, PostgreSQL, Oracle y SQL Server.
-### SQL (Structured Query Language):Lenguaje estándar utilizado para gestionar bases de datos. Se usa para crear, leer, actualizar y eliminar datos (operaciones CRUD).
-JDBC (Java Database Connectivity): API de Java que permite conectar y ejecutar operaciones SQL en bases de datos desde aplicaciones Java. Es el puente entre las aplicaciones Java y los sistemas de bases de datos.
-Conexión a la Base de Datos: El proceso de establecer una comunicación entre la aplicación Java y el DBMS. Generalmente, se hace usando la clase DriverManager o DataSource en JDBC.
-Driver JDBC: Un componente de software que permite a una aplicación Java interactuar con una base de datos específica. Hay diferentes tipos de controladores: tipo 1 (puente), tipo 2 (nativo), tipo 3 (red) y tipo 4 (protocolo de base de datos).
+### SQL (Structured Query Language):
+Lenguaje estándar utilizado para gestionar bases de datos. Se usa para crear, leer, actualizar y eliminar datos (operaciones CRUD).
+### JDBC (Java Database Connectivity): 
+API de Java que permite conectar y ejecutar operaciones SQL en bases de datos desde aplicaciones Java. Es el puente entre las aplicaciones Java y los sistemas de bases de datos.
+### Conexión a la Base de Datos: 
+El proceso de establecer una comunicación entre la aplicación Java y el DBMS. Generalmente, se hace usando la clase DriverManager o DataSource en JDBC.
+### Driver JDBC: Un componente de software que permite a una aplicación Java interactuar con una base de datos específica. Hay diferentes tipos de controladores: tipo 1 (puente), tipo 2 (nativo), tipo 3 (red) y tipo 4 (protocolo de base de datos).
 Conexion (Connection): Objeto en JDBC que representa la conexión abierta a una base de datos. Permite ejecutar consultas y actualizar la base de datos.
 Statement:Objeto que se usa para enviar instrucciones SQL a la base de datos. Hay diferentes tipos:
 Statement: Para ejecutar consultas simples.
