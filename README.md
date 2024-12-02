@@ -12,8 +12,10 @@ Lenguaje estándar utilizado para gestionar bases de datos. Se usa para crear, l
 API de Java que permite conectar y ejecutar operaciones SQL en bases de datos desde aplicaciones Java. Es el puente entre las aplicaciones Java y los sistemas de bases de datos.
 ### Conexión a la Base de Datos: 
 El proceso de establecer una comunicación entre la aplicación Java y el DBMS. Generalmente, se hace usando la clase DriverManager o DataSource en JDBC.
-### Driver JDBC: Un componente de software que permite a una aplicación Java interactuar con una base de datos específica. Hay diferentes tipos de controladores: tipo 1 (puente), tipo 2 (nativo), tipo 3 (red) y tipo 4 (protocolo de base de datos).
-Conexion (Connection): Objeto en JDBC que representa la conexión abierta a una base de datos. Permite ejecutar consultas y actualizar la base de datos.
+### Driver JDBC: 
+Un componente de software que permite a una aplicación Java interactuar con una base de datos específica. Hay diferentes tipos de controladores: tipo 1 (puente), tipo 2 (nativo), tipo 3 (red) y tipo 4 (protocolo de base de datos).
+### Conexion (Connection): 
+Objeto en JDBC que representa la conexión abierta a una base de datos. Permite ejecutar consultas y actualizar la base de datos.
 Statement:Objeto que se usa para enviar instrucciones SQL a la base de datos. Hay diferentes tipos:
 Statement: Para ejecutar consultas simples.
 PreparedStatement: Para ejecutar consultas precompiladas y más eficientes.
@@ -32,25 +34,25 @@ DriverManager:
 Clase en JDBC que gestiona los controladores de base de datos. Se usa para obtener una conexión a la base de datos, eligiendo el controlador adecuado.
 Auto-commit:
 Una característica en JDBC que, por defecto, cada operación SQL se confirma automáticamente (commit) al ejecutarse. Se puede desactivar para manejar transacciones manualmente.
-Rollback:
+### Rollback:
 Operación que deshace los cambios realizados en una transacción si ocurre un error antes de un commit.
-Commit:
+### Commit:
 Operación que confirma una transacción, haciendo que los cambios realizados en la base de datos sean permanentes.
-SQLException:
+### SQLException:
 Excepción en Java que se lanza cuando ocurre un error durante la ejecución de una operación SQL a través de JDBC.
-Metadata:
+### Metadata:
 Información sobre la base de datos, como sus tablas, columnas, tipos de datos, etc. En JDBC, se puede obtener a través de objetos como DatabaseMetaData.
-Batch Processing:
+### Batch Processing:
 Técnica que permite ejecutar múltiples consultas SQL de manera eficiente en un solo lote, minimizando la cantidad de comunicaciones entre la aplicación y la base de datos.
-Foreign Key:
+### Foreign Key:
 Una clave que establece una relación entre dos tablas en una base de datos, asegurando la integridad referencial.
-Primary Key:
+### Primary Key:
 Una clave única que identifica de manera exclusiva cada fila en una tabla de base de datos.
-Index:
+### Index:
 Una estructura de datos que mejora la velocidad de las consultas de búsqueda en la base de datos, similar a un índice en un libro.
-Normalization:
+### Normalization:
 El proceso de organizar los datos en una base de datos para reducir la redundancia y mejorar la integridad de los datos.
-JOIN:
+### JOIN:
 Una operación SQL que se utiliza para combinar filas de dos o más tablas en una base de datos, basándose en una condición común entre ellas.
 Database URL:
 Especificación de la dirección de una base de datos, que incluye el protocolo, el nombre de host, el puerto y el nombre de la base de datos.
