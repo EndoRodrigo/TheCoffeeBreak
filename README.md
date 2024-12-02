@@ -2,7 +2,7 @@
 El código de muestra que viene con este tutorial crea una base de datos que es utilizada por un propietario de una pequeña cafetería llamada The Coffee Break, donde los granos de café se venden por libra y el café preparado se vende por taza.
 
 # Glosario de términos sobre Bases de Datos y JDBC:
-Base de Datos (DB): Conjunto de datos organizados de manera estructurada y accesibles electrónicamente. Pueden ser de diferentes tipos, como bases de datos relacionales (SQL) o NoSQL.
+## Base de Datos (DB): Conjunto de datos organizados de manera estructurada y accesibles electrónicamente. Pueden ser de diferentes tipos, como bases de datos relacionales (SQL) o NoSQL.
 Sistema de Gestión de Bases de Datos (DBMS): Software utilizado para crear, gestionar y manipular bases de datos. Ejemplos comunes son MySQL, PostgreSQL, Oracle y SQL Server.
 SQL (Structured Query Language):Lenguaje estándar utilizado para gestionar bases de datos. Se usa para crear, leer, actualizar y eliminar datos (operaciones CRUD).
 JDBC (Java Database Connectivity): API de Java que permite conectar y ejecutar operaciones SQL en bases de datos desde aplicaciones Java. Es el puente entre las aplicaciones Java y los sistemas de bases de datos.
