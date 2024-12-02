@@ -16,23 +16,27 @@ El proceso de establecer una comunicación entre la aplicación Java y el DBMS. 
 Un componente de software que permite a una aplicación Java interactuar con una base de datos específica. Hay diferentes tipos de controladores: tipo 1 (puente), tipo 2 (nativo), tipo 3 (red) y tipo 4 (protocolo de base de datos).
 ### Conexion (Connection): 
 Objeto en JDBC que representa la conexión abierta a una base de datos. Permite ejecutar consultas y actualizar la base de datos.
-Statement:Objeto que se usa para enviar instrucciones SQL a la base de datos. Hay diferentes tipos:
-Statement: Para ejecutar consultas simples.
-PreparedStatement: Para ejecutar consultas precompiladas y más eficientes.
-CallableStatement: Para llamar procedimientos almacenados en la base de datos.
-ResultSet: Objeto que almacena los resultados de una consulta SQL ejecutada con JDBC. Permite recorrer los resultados y acceder a los datos.
-Query:
-
+### Statement:
+Objeto que se usa para enviar instrucciones SQL a la base de datos. Hay diferentes tipos:
+### Statement: 
+Para ejecutar consultas simples.
+### PreparedStatement: 
+Para ejecutar consultas precompiladas y más eficientes.
+### CallableStatement: 
+Para llamar procedimientos almacenados en la base de datos.
+### ResultSet: 
+Objeto que almacena los resultados de una consulta SQL ejecutada con JDBC. Permite recorrer los resultados y acceder a los datos.
+### Query:
 Una consulta SQL que se envía a la base de datos para recuperar o manipular datos. Ejemplo: SELECT, INSERT, UPDATE, DELETE.
-Transaction:
+### Transaction:
 Un conjunto de operaciones SQL que se ejecutan como una única unidad de trabajo. En JDBC, se manejan con los métodos commit() y rollback() para asegurar que los cambios sean permanentes o revertidos en caso de error.
-PreparedStatement:
+### PreparedStatement:
 Un tipo de Statement en JDBC que permite precompilar la consulta SQL, lo que mejora la seguridad y el rendimiento (previene inyecciones SQL y mejora la ejecución de consultas repetidas).
-CallableStatement:
+### CallableStatement:
 Similar a PreparedStatement, pero se usa para ejecutar procedimientos almacenados en la base de datos.
-DriverManager:
+### DriverManager:
 Clase en JDBC que gestiona los controladores de base de datos. Se usa para obtener una conexión a la base de datos, eligiendo el controlador adecuado.
-Auto-commit:
+### Auto-commit:
 Una característica en JDBC que, por defecto, cada operación SQL se confirma automáticamente (commit) al ejecutarse. Se puede desactivar para manejar transacciones manualmente.
 ### Rollback:
 Operación que deshace los cambios realizados en una transacción si ocurre un error antes de un commit.
