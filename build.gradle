@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.endorodrigo'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    // https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client
+    implementation("org.mariadb.jdbc:mariadb-java-client:3.5.1")
+
+}
+
+test {
+    useJUnitPlatform()
+}
